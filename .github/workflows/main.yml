@@ -1,0 +1,10 @@
+            - name: HTTP Status
+  # You may pin to the exact commit or the version.
+  # uses: lakuapik/gh-actions-http-status@705c34b4307b8a0354a431b75bb5910b6562dd20
+  uses: lakuapik/gh-actions-http-status@v1
+  with:
+    # List website urls in JSON (eg: ["http://github.com", "https://education.github.com"])
+    sites: 
+    # List expected HTTP status codes in JSON (eg: [301, 200])
+    expected: 
+          
